@@ -105,7 +105,7 @@ app.get('/', async (req, res) => {
                 const main_data = await axios.get(policy_Url);
                 const pattern = /(\d{3,4}\.ts)/g;
                 const replacement = `${mainUrl}/$1${decryptedResponse}`;
-                const newText = main_data.data.replace(pattern, replacement).replace("enc.key", `enc.key&authorization=${token}`)
+                const newText = main_data.data.replace(pattern, replacement).replace("https://api.penpencil.co/v1/videos/get-hls-key?videoKey=", `https://dl.pwjarvis.com/api/get-hls-key?id=`)
 
                 res.set({ 'Content-Type': 'application/x-mpegURL', 'Content-Disposition': 'attachment; filename="main.m3u8"' });
                 res.status(200).send(newText);
