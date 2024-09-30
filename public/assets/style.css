@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.header {
+    width: 90%;
+    font-family: cursive;
+    background-color: white;
+    height: 100%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px rgb(189, 188, 188);
+}
+
+.selection  {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.boxes {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.homepage {
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    height: 50vh;
+    box-shadow: 1px 1px 20px rgb(189, 188, 188);
+}
+
+.text {
+    font-family: cursive;
+    font-size: 22px;
+    margin-top: 10x;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.boxes-input {
+    padding: 2px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.boxes-input span {
+    margin-right:  20px;
+    padding: 5px;
+    width: 100px;
+    font-family: cursive;
+}
+
+.boxes-input input {
+    width: 100%;
+    height: 100%;
+}
+
+.button-dev {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button-dev button {
+    padding: 10px;
+    width: 100px;
+}
